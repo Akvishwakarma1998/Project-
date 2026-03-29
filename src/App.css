@@ -1,12 +1,15 @@
-
+/* h1{
+  color: white;
+  margin-left: 90px;
+} */
 #A{
- 
   display: flex;
    justify-content: space-between;
-   margin-left: 100px;
+   margin-left: 80px;
    margin-right: 100px;
    box-shadow: 30px;
-   font-size: 23px;
+   font-size: 19px;
+   padding-top: 8px;
     font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
@@ -14,27 +17,47 @@
   font-variation-settings:
     "GRAD" 0;
 }
+a:hover{
+  color: white;
+}
 a{
-color: grey;
+color: rgb(182, 169, 169);
 text-decoration: none;
 }
 fieldset{
    margin-top: 20px;
-  background-color: rgb(30, 25, 25);
+  background-color: rgb(33, 33, 49);
    border: 1px solid black;
    border-radius: 10px;
    margin-left: 140px;
    margin-right: 140px;
+   padding-top: 7px;
 }
 body{
-  background-color: black;
+  background-color: rgb(25, 25, 39);
 }
 h2{
   color: white;
   margin-top: 100px;
 margin-left: 230px;
-font-size: 30px;
+font-size: 35px;
   font-family: "Google Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: weight;
+  font-style: normal;
+  font-variation-settings:
+    "GRAD" 0;
+}
+#Zz{
+   font-family: "Google Sans", sans-serif;
+  color: rgb(182, 169, 169);
+  width: 400px;
+  font-size: 20px;
+  margin-left: 230px;
+  padding-bottom: 20px;
+word-spacing: 15px;
+line-height: 30px;
+   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
   font-weight: weight;
   font-style: normal;
@@ -43,22 +66,21 @@ font-size: 30px;
 }
 p{
    font-family: "Google Sans", sans-serif;
-  color: grey;
-  width: 350px;
+  color: rgb(182, 169, 169);
+  width: 500px;
+  font-size: 21px;
   margin-left: 230px;
   padding-bottom: 20px;
-  text-transform: capitalize; 
-   font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+   font-family: 'Times New Roman', Times, serif;
+  
+   
+  
 }
+
 #img{
   border-radius: 100%;
-  width: 200px;
-  height: 230px;
+  width: 250px;
+  height: 270px;
   margin-right: 200px;
   margin-top: 100px;
  
@@ -67,48 +89,60 @@ p{
    display: flex;
    justify-content: space-between;
    margin-top: 40px;
+   
 }
 #F{
   display: flex;
   justify-content: space-evenly;
-  margin-left: 170px;
+  margin-left: 150px;
   margin-right: 150px;
  
 }
 button{
- background-color: rgb(13, 10, 10);
- color: grey;
+  display: flex;
+  justify-content: space-evenly;
+ background-color: rgb(33, 33, 49);
+ color: rgb(182, 169, 169);
  margin-top: 80px;
- width: 120px;
- height: 30px;
+ padding-top: 8px;
+ width: 140px;
+ border-radius: 10px;
+ height: 50px;
  border: 1px solid rgb(28, 24, 24);
- font-size: 16px;
-    font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+ font-size: 25px;
+    font-family: 'Times New Roman', Times, serif
+ 
+}
+button:hover{
+  border-color: green;
+  color: white;
 }
 #Q{
   color: white;
   margin-left: 230px;
   border: 1px solid green;
-  height: 30px;
-  width: 300px;
+  height: 38px;
+  width: 330px;
   font-size: 20px;
   text-align: center;
-  padding-top: 7px;
+  padding-top: 14px;
+  background-color: rgb(73, 121, 73);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
+#M:hover{
   background-color: green;
+  color: black;
+}
+#Q:hover{
+  background-color: green;
+   box-shadow: 0 0 20px 0 rgba(157, 145, 145, 0.6);
+
 }
 #M{
   color: white;
-    font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+    font-family: 'Times New Roman', Times, serif
+  
 }
 span{
    color: white;
@@ -128,53 +162,80 @@ span{
 }
 h3{
   color: black;
-  font-size: 30px;
+  font-size: 40px;
   margin-right: 200px;
 }
 #Z{
   width: 500px;
   margin-left: 170px;
+  color: rgb(56, 48, 48);
 }
 #T{
   margin-left: 100px;
-   font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+  margin-top: 5px;
+   font-family: 'Times New Roman', Times, serif
+  
 }
 #H{
   margin-left: 100px;
-  font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+   margin-top: 5px;
+   margin-bottom: 30px;
+  font-family: 'Times New Roman', Times, serif;
+  color: rgb(56, 48, 48);
+  
+
 }
 #IO{
   display: flex;
    justify-content: space-between;
-   
+   margin-left: 20px;
+   margin-right: 100px;
+}
+#IOO{
+  display: flex;
+  justify-content: space-between;
+  margin-left: 90px;
+   margin-right: 100px;
+   margin-top: 30px; 
+}
+#IOOO{
+  display: flex;
+  justify-content: space-between;
+ 
+   margin-right: 100px;
+   margin-top: 30px;
 }
 #R{
-  margin-top: 35px;
+  margin-top: 50px;
   border-radius: 10px;
-  margin-right: 90px;
-  width: 400px;
-  height: 270px;
+  margin-right: 20px;
+  width: 450px;
+  height: 290px;
+}
+#Rr{
+  margin-top: 50px;
+  border-radius: 10px;
+  margin-left: 20px;
+  width: 450px;
+  height: 290px;
 }
 #VC{
   color: white;
   margin-left: 100px;
   border: 1px solid green;
-  height: 30px;
-  width: 300px;
-  font-size: 20px;
+  height: 40px;
+  width: 370px;
+  font-size: 25px;
   text-align: center;
   padding-top: 7px;
   background-color: green;
+  border-radius: 10px;
+}
+#VC:hover{
+   box-shadow: 0 0 30px 0 green;
+     transform: translateX(1px);
+      height: 43px;
+width: 377px;
 }
 #Mm{
   color: white;
@@ -184,4 +245,80 @@ h3{
   font-style: normal;
   font-variation-settings:
     "GRAD" 0;
+}
+#Mmm{
+  color: white;
+ font-family: 'Times New Roman', Times, serif
+  
+    
+}
+#X{
+  margin-left:100px;
+  color: orange;
+ background-color: rgb(232, 226, 216);
+ width: 90px;
+ height: 4px;
+text-align: center;
+margin-top: 45px;
+ padding-top: 11px;
+border-radius: 10px;
+ line-height: 10px;
+}
+#Xx{
+  margin-left:100px;
+  color: green;
+ background-color: rgb(210, 231, 210);
+ width: 90px;
+ height: 4px;
+text-align: center;
+margin-top: 45px;
+ padding-top: 11px;
+border-radius: 10px;
+ line-height: 10px;
+}
+#Xxx{
+  margin-left:100px;
+  color: blue;
+ background-color: rgb(175, 175, 222);
+ width: 90px;
+ height: 4px;
+text-align: center;
+margin-top: 45px;
+ padding-top: 11px;
+ border-radius: 10px;
+ line-height: 10px;
+}
+#VCc{
+  color: white;
+  margin-left: 100px;
+  height: 40px;
+  width: 370px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 7px;
+  border-radius: 10px;
+  background-color: blue;
+}
+#VCc:hover{
+   box-shadow: 0 0 30px 0 blue;
+     transform: translateX(1px);
+      height: 43px;
+width: 377px;
+}
+#VCcc{
+  color: white;
+  margin-left: 100px;
+  height: 40px;
+width: 370px;
+  font-size: 25px;
+  text-align: center;
+  padding-top: 9px;
+  background-color: orange;
+  border-radius: 10px;
+}
+#VCcc:hover{
+   box-shadow: 0 0 30px 0 orange;
+     transform: translateX(1px);
+      height: 43px;
+width: 377px;
 }

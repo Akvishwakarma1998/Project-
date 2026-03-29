@@ -3,19 +3,19 @@ return(
     <div>
     <fieldset>
     <div id='A'>
-        <a href="#">Home</a>
-        <a href="#">Contact</a>
-        <a href="#">About</a>
-        <a href="#">LogIn</a>
-        <a href="#">Admin</a>
+        <a href="#">HOME</a>
+        <a href="#">CASE STUDY</a>
+        <a href="#">ABOUT</a>
+        <a href="#">TESTIMONIALS</a>
+        <a href="#">GET IN TOUCH</a>
         
     </div>
     </fieldset>
     <div id="S">
     <div>
         <h2>Aditya Kumar Vishwakarma</h2>
-        <p>i have completed my BCA degree from MGKVP in 2025 with 80% marks and currently
-            i have studying in MCA from kashi institute of technology mirzamurad varanasi...
+        <p id="Zz">I  am a student of Kashi institute at technology mirzamurad varanasi pursuing my Mca
+            with a strong intrest in web development 
         </p>
         <div id="Q">
            <a id="M" href="#"> let's get Started</a>
@@ -25,13 +25,14 @@ return(
         <img id="img" src="./photo.jpg" alt="photo"/>
     </div>
     </div>
-    
+   
     <div id="F">
-    <button >Clickup</button>
-    <button>DropBox</button>
-    <button>DropBox</button>
-    <button>DropBox</button>
-    <button>DropBox</button>
+    <button >Html</button>
+    <button>Css</button>
+    <button>JavaScript</button>
+    <button>React.js</button>
+    <button>Node.js</button>
+    <button>Sql</button>
     </div>
     <div></div>
     </div>

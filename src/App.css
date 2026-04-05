@@ -10,36 +10,38 @@
    box-shadow: 30px;
    font-size: 19px;
    padding-top: 8px;
-    font-family: "Google Sans", sans-serif;
-  font-optical-sizing: auto;
-  font-weight: weight;
-  font-style: normal;
-  font-variation-settings:
-    "GRAD" 0;
+    font-family:serif;
+  
+}
+#case{
+  margin-left: -200px;
 }
 a:hover{
   color: white;
+  transform: scale(1.05);
 }
 a{
 color: rgb(182, 169, 169);
 text-decoration: none;
 }
-fieldset{
+#U{
    margin-top: 20px;
   background-color: rgb(33, 33, 49);
    border: 1px solid black;
    border-radius: 10px;
-   margin-left: 140px;
+   margin-left: 110px;
    margin-right: 140px;
    padding-top: 7px;
+   height: 40px;
+   width: 1000px;
 }
 body{
   background-color: rgb(25, 25, 39);
 }
 h2{
   color: white;
-  margin-top: 100px;
-margin-left: 230px;
+  margin-top: 80px;
+margin-left: 120px;
 font-size: 35px;
   font-family: "Google Sans", sans-serif;
   font-optical-sizing: auto;
@@ -53,7 +55,7 @@ font-size: 35px;
   color: rgb(182, 169, 169);
   width: 400px;
   font-size: 20px;
-  margin-left: 230px;
+ margin-left: 160px;
   padding-bottom: 20px;
 word-spacing: 15px;
 line-height: 30px;
@@ -64,6 +66,7 @@ line-height: 30px;
   font-variation-settings:
     "GRAD" 0;
 }
+
 p{
    font-family: "Google Sans", sans-serif;
   color: rgb(182, 169, 169);
@@ -72,7 +75,7 @@ p{
   margin-left: 230px;
   padding-bottom: 20px;
    font-family: 'Times New Roman', Times, serif;
-  
+  margin-top: -30px;
    
   
 }
@@ -81,9 +84,20 @@ p{
   border-radius: 100%;
   width: 250px;
   height: 270px;
-  margin-right: 200px;
-  margin-top: 100px;
+  margin-right: 150px;
+  margin-top: 90px;
  
+}
+#imgg{
+ border-radius: 10px;
+  width: 400px;
+  height: 270px;
+  margin-left: 80px;
+  margin-top: 10px;
+  
+}
+#imgg:hover{
+  transform: scale(1.05);
 }
 #S{
    display: flex;
@@ -94,8 +108,8 @@ p{
 #F{
   display: flex;
   justify-content: space-evenly;
-  margin-left: 150px;
-  margin-right: 150px;
+  margin-left: 97px;
+  margin-right: 90px;
  
 }
 button{
@@ -104,10 +118,11 @@ button{
  background-color: rgb(33, 33, 49);
  color: rgb(182, 169, 169);
  margin-top: 80px;
- padding-top: 8px;
- width: 140px;
+ padding-top: 9px;
+ width: 150px;
  border-radius: 10px;
- height: 50px;
+ height: 55px;
+
  border: 1px solid rgb(28, 24, 24);
  font-size: 25px;
     font-family: 'Times New Roman', Times, serif
@@ -116,10 +131,11 @@ button{
 button:hover{
   border-color: green;
   color: white;
+   transform: scale(1.05);
 }
 #Q{
   color: white;
-  margin-left: 230px;
+  margin-left: 120px;
   border: 1px solid green;
   height: 38px;
   width: 330px;
@@ -130,14 +146,31 @@ button:hover{
   border-radius: 10px;
   text-transform: uppercase;
 }
+#kyu{
+  color: white;
+  margin-left: 80px;
+  border: 1px solid green;
+  height: 38px;
+  width: 230px;
+  font-size: 20px;
+  text-align: center;
+  padding-top: 14px;
+  background-color: rgb(73, 121, 73);
+  border-radius: 10px;
+  text-transform: uppercase;
+}
 #M:hover{
   background-color: green;
   color: black;
+  
+}
+#kyu:hover{
+   transform: scale(1.05);
 }
 #Q:hover{
   background-color: green;
    box-shadow: 0 0 20px 0 rgba(157, 145, 145, 0.6);
-
+ transform: scale(1.05);
 }
 #M{
   color: white;
@@ -149,16 +182,31 @@ span{
    margin-bottom: 100px;
    margin-left: 200px;
 }
-#N{
+.N{
   background-color: white;
-  width: 1225px;
+border-radius: 3px;
   margin-left: -5px;
   margin-top: 60px;
+  height: 1420px;
+  width: 1100px;
+ 
 }
 #V{
   text-align: center;
   margin-left: 190px;
   margin-top: 30px;
+}
+#Vm{
+  text-align: center;
+  margin-left: 190px;
+  margin-top: 30px;
+  color: white;
+}
+h4{
+ color: white;
+ font-size: 40px; 
+ margin-right: 190px;
+ 
 }
 h3{
   color: black;
@@ -170,6 +218,28 @@ h3{
   margin-left: 170px;
   color: rgb(56, 48, 48);
 }
+#Zz{
+  width: 500px;
+  margin-left: 120px;
+  color: rgb(144, 136, 136);
+  margin-top: 10px;
+  word-spacing: 15px;
+}
+#Zzz{
+  width: 500px;
+  margin-left: 170px;
+  color: rgb(144, 136, 136);
+  margin-top: -30px;
+  
+}
+#Zzzz{
+  width: 500px;
+  margin-left: 380px;
+ color: rgb(56, 48, 48);
+  margin-top: -50px;
+  font-size: 17px;
+  line-height: 25px;
+}
 #T{
   margin-left: 100px;
   margin-top: 5px;
@@ -178,7 +248,7 @@ h3{
 }
 #H{
   margin-left: 100px;
-   margin-top: 5px;
+   margin-top: -20px;
    margin-bottom: 30px;
   font-family: 'Times New Roman', Times, serif;
   color: rgb(56, 48, 48);
@@ -230,12 +300,10 @@ h3{
   padding-top: 7px;
   background-color: green;
   border-radius: 10px;
+  margin-top: -15px;
 }
 #VC:hover{
-   box-shadow: 0 0 30px 0 green;
-     transform: translateX(1px);
-      height: 43px;
-width: 377px;
+   transform: scale(1.05);
 }
 #Mm{
   color: white;
@@ -245,6 +313,22 @@ width: 377px;
   font-style: normal;
   font-variation-settings:
     "GRAD" 0;
+}
+#black{
+  color: black;
+  font-size: 25px;
+  font-family: 'Times New Roman', Times, serif;
+  margin-top: 15px;
+  margin-left: 80px;
+
+}
+#Tt{
+  color: rgb(56, 48, 48);
+  margin-top: 15px;
+  margin-left: 80px;
+  font-size: 17px;
+  line-height: 24px;
+  width: 400px;
 }
 #Mmm{
   color: white;
@@ -298,6 +382,7 @@ margin-top: 45px;
   padding-top: 7px;
   border-radius: 10px;
   background-color: blue;
+   margin-top: -15px;
 }
 #VCc:hover{
    box-shadow: 0 0 30px 0 blue;
@@ -315,10 +400,100 @@ width: 370px;
   padding-top: 9px;
   background-color: orange;
   border-radius: 10px;
+   margin-top: -15px;
 }
 #VCcc:hover{
    box-shadow: 0 0 30px 0 orange;
      transform: translateX(1px);
       height: 43px;
 width: 377px;
+}
+.B{
+ background-color: white;
+  margin-left: -5px;
+  margin-top: 60px;
+  height: 700px;
+  width: 1235px;
+}
+/* #btw{
+  display: flex;
+  justify-content: space-between; */
+  
+h5{
+  color: rgb(56, 48, 48);
+  text-align: center;
+  font-size: 40px;
+  margin-top: 20px;
+}
+body {
+  background: #0b0f1a;
+  color: #ccc;
+}
+.card {
+ background-color: rgb(43, 43, 53);
+  border-radius: 15px;
+  padding: 25px;
+  margin-bottom: 20px;
+  position: relative;
+  border: 1px solid rgba(255,255,255,0.1);
+  width: 400px;
+  height: 200px;
+}
+.card:hover {
+  transform: scale(1.05);
+}
+.quote {
+  font-size: 60px;
+  color: #aaa;
+  position: absolute;
+  top: 10px;
+  left: 15px;
+}
+
+/* Text */
+.card p {
+  text-align: center;
+  line-height: 1.6;
+  margin: 20px 0;
+  width: 400px;
+  font-size: 17px;
+}
+
+/* User section */
+.user {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.user img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-left: -80px;
+}
+
+.user h3 {
+  font-size: 18px;
+  color: #fff;
+  margin-top: 10px;
+  
+  width: 300px;
+}
+#btw{
+  display:flex ;
+  justify-content: center;
+  margin-left: -24px;
+
+}
+.Container{
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  margin-left: -180px;
+}
+h3{
+  margin-left: -20px;
+  margin-right: 20px;
 }

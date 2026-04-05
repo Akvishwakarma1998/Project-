@@ -1,14 +1,13 @@
 function Case(){
     return(
         
-        <fieldset id="N">
+        <fieldset className="N">
         <div id="V">
         <div> 
-            <h3>Case Studies</h3>
-        <p id="Z">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione distinctio
-            asperiores, 
+            <h3 id="case">Case Studies</h3>
+        <p id="Z">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Ratione distinctio 
             magnam a neque, pariatur voluptatibus dicta suscipit totam cupiditate!
-            Repellendus?</p>
+             Repellendus?</p>
             </div>
             </div>
             <div id="IO">
@@ -41,7 +40,7 @@ function Case(){
                       distinctio nostrum aperiam eligendi!</p>
                       
                        <div id="VCcc">
-           <a id="Mm" href="#"> View Case Study</a>
+           <a id="Mm" href="#"> Hospital Management System</a>
         </div>
                       </div>
                       

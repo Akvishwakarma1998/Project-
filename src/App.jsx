@@ -1,6 +1,7 @@
 import Fig from './Figma'
 import Case from './Case'
-import Test from './Test'
+import Test from './Testinomials'
+import Work from './Work'
 import './App.css'
 
 function App() {
@@ -13,6 +14,7 @@ function App() {
   <Case/>
   <br></br>
     <Test/>
+    <Work/>
   </div>
   );
 }
